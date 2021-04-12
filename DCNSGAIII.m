@@ -23,7 +23,7 @@ function DCNSGAIII(Global)
     Population            = Global.Initialization();
     %% Calculate the initial dynamic constraint boundary
     [initialE, ~]         = max(max(0,Population.cons), [], 1);
-    initialE(initialE==0) = 1;
+    initialE(initialE<1) = 1;
     %% Optimization
     while Global.NotTermination(Population)
         %% Reduce the dynamic constraint boundry
