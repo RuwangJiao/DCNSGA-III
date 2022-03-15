@@ -1,10 +1,17 @@
-# DCNSGA-III
-Developer: Ruwang Jiao
+# Handling constrained many-objective optimization problems via problem transformation
+This is the matlab version of DCNSGA-III for constrained multi-objective optimization problems. The code is under the framework of PlatEMO, which can be obtained from https://github.com/BIMK/PlatEMO.
 
-Email: ruwangjiao@gmail
-
-Last modified: 2020-10-15
-
-Reference: R. Jiao, S. Zeng, C. Li, S. Yang, and Y.S. Ong, Handling constrained many-objective optimization problems via problem transformation, IEEE Transactions on Cybernetics, 2020, DOI: 10.1109/TCYB.2020.3031642.
-
-Note: This software is based on the platform of PlatEMO, which can be obtained from https://github.com/BIMK/PlatEMO. You can put this software into the "Algorithms" folder of PlatEMO, and then run the PlatEMO.
+# Acknowledge
+Please kindly cite this paper in your publications if it helps your research:
+```
+@article{jiao2020handling,
+  title={Handling constrained many-objective optimization problems via problem transformation},
+  author={Jiao, Ruwang and Zeng, Sanyou and Li, Changhe and Yang, Shengxiang and Ong, Yew-Soon},
+  journal={IEEE Transactions on Cybernetics},
+  volume={51},
+  number={10},
+  pages={4834--4847},
+  year={2020},
+  publisher={IEEE}
+}
+```
